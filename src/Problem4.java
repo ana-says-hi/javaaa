@@ -17,4 +17,8 @@ public class Problem4 {
      * Er kauft nur die zwei benötigten Gegenstände.
      * z.B. b=60, tastaturen = [40 50 60] und usb Laufwerke = [8 12] => 50 + 8 = 58
      */
+    public int[] tastaturen;
+    public int[] laufwk;
+
+
 }
