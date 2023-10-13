@@ -86,7 +86,7 @@ public class Problem4 {
 //            for (int j = tastaturen.size() - 1; j > 0; j--) {
 //                //todo cu while, daca suma e in buget
 //            } max absolut, mai mmic decat bugetul
-        //mic e din bistrtza lol
+        //mic e din bistrtza lol sau nu idk
         return 0;
     }
 
