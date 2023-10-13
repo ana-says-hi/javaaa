@@ -11,7 +11,7 @@ public class Problem3 {
         //if(zahl1.length==zahl2.length)
         int[] rez = new int[zahl1.length + 1];
         rez[zahl1.length] = 0;
-        for (int i = zahl1.length - 1; i > 0; i--) {
+        for (int i = zahl1.length - 1; i >=0; i--) {
             if (zahl1[i] + zahl2[i] > 9)
                 rez[i] = 1;
             else rez[i] = 0;
@@ -28,7 +28,7 @@ public class Problem3 {
         //if(zahl1.length==zahl2.length)
         int[] rez = new int[zahl1.length + 1];
         rez[zahl1.length] = 0;
-        for (int i = zahl1.length - 1; i > 0; i--) {
+        for (int i = zahl1.length - 1; i >= 0; i--) {
             if (zahl1[i] - zahl2[i] < 0)
                 rez[i] = -1;
             else rez[i] = 0;
@@ -45,7 +45,7 @@ public class Problem3 {
         //if(zahl1.length==zahl2.length)
         int[] rez = new int[zahl1.length + 1];
         rez[zahl1.length] = 0;
-        for (int i = zahl1.length - 1; i > 0; i--) {
+        for (int i = zahl1.length - 1; i >= 0; i--) {
             if (zahl1[i] * ziff > 9)
                 rez[i] = (zahl1[i] * ziff) / 10;
             else rez[i] = 0;
@@ -62,7 +62,7 @@ public class Problem3 {
         //if(zahl1.length==zahl2.length)
         int[] rez = new int[zahl1.length + 1];
         rez[zahl1.length] = 0;
-        for (int i = zahl1.length - 1; i > 0; i--) {
+        for (int i = zahl1.length - 1; i >= 0; i--) {
             if (zahl1[i] * ziff > 9)
                 rez[i] = (zahl1[i] * ziff) / 10;
             else rez[i] = 0;
