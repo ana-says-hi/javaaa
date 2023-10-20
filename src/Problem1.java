@@ -13,7 +13,7 @@ class Problem1 {
     private static int aufrunden(int note) {
         if (note < 38) return note;
         int i;
-        boolean rounded = false;
+        //boolean rounded = false;
         for (i = 1; i <= 3; i++)
             if ((note + i) % 5 == 0) {
                 return note + i;

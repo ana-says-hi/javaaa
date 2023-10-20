@@ -1,7 +1,6 @@
 import static java.lang.Math.abs;
 
 public class Problem3 {
-    //todo teste si diviziunea
 
     /**
      * Es gibt 2 große Zahlen. Die Zahlen sind als Array dargestellt.
@@ -126,6 +125,28 @@ public class Problem3 {
             //System.out.println(i + " - " + out[i] + " , " + output[i]);
         }
     }
+    private static void testMulti2() {
+        int[] z1 = {9};
+        int z2 = 2;
+        int[] output = {1, 8};
+        int[] out = multi(z1, z2);
+        for (int i = 0; i < out.length; i++) {
+            assert (out[i] == output[i]);
+            //System.out.println(i + " - " + out[i] + " , " + output[i]);
+        }
+    }
+    private static void failedTestMulti2() {
+        int[] z1 = {9};
+        int z2 = 2;
+        int[] output = {18};
+        int[] out = multi(z1, z2);
+        for (int i = 0; i < out.length; i++) {
+            assert (out[i] == output[i]);
+            //System.out.println(i + " - " + out[i] + " , " + output[i]);
+        }
+    }
+
+
     private static void failedTestMulti() {
         int[] z1 = {2, 3, 6, 0};
         int z2 = 2;
@@ -181,5 +202,7 @@ public class Problem3 {
         //failedTestMulti();
         testDiviz();
         //failedTestDiviz();
+        testMulti2();
+        //failedTestMulti2();
     }
 }
