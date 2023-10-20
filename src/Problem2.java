@@ -70,7 +70,7 @@ public class Problem2 {
 
     private static void testMinSum(){
         int[] input={4,8,4,10,17};
-        assert(maxSum(input)==25);
+        assert(minSum(input)==26);
     }
 
     private static void failedTestMinSum(){
